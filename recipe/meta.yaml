@@ -1,5 +1,5 @@
 {% set name = "astartes" %}
-{% set version = "1.1.3.post1" %}
+{% set version = "1.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/astartes-{{ version }}.tar.gz
-  sha256: 06529569011e6bdc1ea8fa21063b1bb62639cb9373c5264c7fd583ace10b071e
+  sha256: 920b96e3ad98fd53e4d2781153abed826ae1a2cbca6bd63e956a62620c631e8a
 
 build:
   noarch: python
